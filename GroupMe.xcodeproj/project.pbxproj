@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711A5F5E1E01F3030085F525 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A5F5D1E01F3030085F525 /* Security.framework */; };
+		712341691E0F1265001540C2 /* UIColor+GroupMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 712341681E0F1265001540C2 /* UIColor+GroupMe.m */; };
+		714AAFDC1E06D3E1008112CA /* NewGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714AAFDB1E06D3E1008112CA /* NewGroupViewController.m */; };
+		716B7F381E0199F4002A26F2 /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B7F371E0199F4002A26F2 /* GroupTableViewCell.m */; };
+		71A723D91E00C8D600E72284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A723D81E00C8D600E72284 /* main.m */; };
+		71A723DC1E00C8D600E72284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A723DB1E00C8D600E72284 /* AppDelegate.m */; };
+		71A723DF1E00C8D600E72284 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A723DE1E00C8D600E72284 /* MasterViewController.m */; };
+		71A723E21E00C8D600E72284 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A723E11E00C8D600E72284 /* DetailViewController.m */; };
+		71A723E51E00C8D600E72284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A723E31E00C8D600E72284 /* Main.storyboard */; };
+		71A723E71E00C8D600E72284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A723E61E00C8D600E72284 /* Assets.xcassets */; };
+		71A723EA1E00C8D600E72284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A723E81E00C8D600E72284 /* LaunchScreen.storyboard */; };
+		71AB3F161E15783200B6D0EC /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AB3F151E15783200B6D0EC /* AccountManager.m */; };
+		71D56B131E01012300F0ED50 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D56B121E01012300F0ED50 /* Group.m */; };
+		71F967EE1E105C860021362B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F967ED1E105C850021362B /* MapKit.framework */; };
+		75556D6AAD8C6E435FFFE84F /* libPods-GroupMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BFF21DC3B9192995730F13 /* libPods-GroupMe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5889A577A314982D3BA99872 /* Pods-GroupMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMeTests/Pods-GroupMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F724935E83F3617D9E02575 /* Pods-GroupMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMeTests/Pods-GroupMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		711A5F5D1E01F3030085F525 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		711A5F5F1E01F3210085F525 /* GroupMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GroupMe.entitlements; sourceTree = "<group>"; };
+		712341671E0F1265001540C2 /* UIColor+GroupMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GroupMe.h"; sourceTree = "<group>"; };
+		712341681E0F1265001540C2 /* UIColor+GroupMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GroupMe.m"; sourceTree = "<group>"; };
+		714AAFDA1E06D3E1008112CA /* NewGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGroupViewController.h; sourceTree = "<group>"; };
+		714AAFDB1E06D3E1008112CA /* NewGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGroupViewController.m; sourceTree = "<group>"; };
+		716B7F361E0199F4002A26F2 /* GroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
+		716B7F371E0199F4002A26F2 /* GroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
+		71A723D41E00C8D600E72284 /* GroupMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A723D81E00C8D600E72284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71A723DA1E00C8D600E72284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71A723DB1E00C8D600E72284 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71A723DD1E00C8D600E72284 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		71A723DE1E00C8D600E72284 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		71A723E01E00C8D600E72284 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		71A723E11E00C8D600E72284 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		71A723E41E00C8D600E72284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71A723E61E00C8D600E72284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71A723E91E00C8D600E72284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71A723EB1E00C8D600E72284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A723F41E00C8D600E72284 /* GroupMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupMeTests.m; sourceTree = "<group>"; };
+		71A723F61E00C8D600E72284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AB3F141E15783200B6D0EC /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		71AB3F151E15783200B6D0EC /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		71D56B111E01012200F0ED50 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		71D56B121E01012300F0ED50 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		71F967ED1E105C850021362B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		73A67ED49126315C77E30C4C /* Pods-GroupMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMe/Pods-GroupMe.debug.xcconfig"; sourceTree = "<group>"; };
+		94BFF21DC3B9192995730F13 /* libPods-GroupMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GroupMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA90B459BED6EF4AB73C45CA /* libPods-GroupMeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GroupMeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF3E07D71A758436A890DEC /* Pods-GroupMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMe/Pods-GroupMe.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A723D11E00C8D600E72284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F967EE1E105C860021362B /* MapKit.framework in Frameworks */,
+				711A5F5E1E01F3030085F525 /* Security.framework in Frameworks */,
+				75556D6AAD8C6E435FFFE84F /* libPods-GroupMe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54B5194EC2A3E5225C1B40DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73A67ED49126315C77E30C4C /* Pods-GroupMe.debug.xcconfig */,
+				FCF3E07D71A758436A890DEC /* Pods-GroupMe.release.xcconfig */,
+				5889A577A314982D3BA99872 /* Pods-GroupMeTests.debug.xcconfig */,
+				5F724935E83F3617D9E02575 /* Pods-GroupMeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71A723CB1E00C8D600E72284 = {
+			isa = PBXGroup;
+			children = (
+				71A723D61E00C8D600E72284 /* GroupMe */,
+				71A723F31E00C8D600E72284 /* GroupMeTests */,
+				71A723D51E00C8D600E72284 /* Products */,
+				54B5194EC2A3E5225C1B40DE /* Pods */,
+				CD9A8769C2129BCD7C7AD5D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71A723D51E00C8D600E72284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A723D41E00C8D600E72284 /* GroupMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A723D61E00C8D600E72284 /* GroupMe */ = {
+			isa = PBXGroup;
+			children = (
+				71A723DA1E00C8D600E72284 /* AppDelegate.h */,
+				71A723DB1E00C8D600E72284 /* AppDelegate.m */,
+				711A5F5F1E01F3210085F525 /* GroupMe.entitlements */,
+				71A723EB1E00C8D600E72284 /* Info.plist */,
+				71A723D81E00C8D600E72284 /* main.m */,
+				71F967EF1E1085BD0021362B /* Models */,
+				71F967F01E1085E10021362B /* Views */,
+				71F967F11E1085F90021362B /* ViewControllers */,
+				71F967F21E1086770021362B /* Utils */,
+				71AB3F131E15777D00B6D0EC /* Managers */,
+				71F967F31E10885E0021362B /* Extensions */,
+				71A723E61E00C8D600E72284 /* Assets.xcassets */,
+			);
+			path = GroupMe;
+			sourceTree = "<group>";
+		};
+		71A723F31E00C8D600E72284 /* GroupMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				71A723F41E00C8D600E72284 /* GroupMeTests.m */,
+				71A723F61E00C8D600E72284 /* Info.plist */,
+			);
+			path = GroupMeTests;
+			sourceTree = "<group>";
+		};
+		71AB3F131E15777D00B6D0EC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				71AB3F141E15783200B6D0EC /* AccountManager.h */,
+				71AB3F151E15783200B6D0EC /* AccountManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		71F967EF1E1085BD0021362B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71D56B111E01012200F0ED50 /* Group.h */,
+				71D56B121E01012300F0ED50 /* Group.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		71F967F01E1085E10021362B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				716B7F361E0199F4002A26F2 /* GroupTableViewCell.h */,
+				716B7F371E0199F4002A26F2 /* GroupTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		71F967F11E1085F90021362B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				71A723E31E00C8D600E72284 /* Main.storyboard */,
+				71A723E81E00C8D600E72284 /* LaunchScreen.storyboard */,
+				71A723DD1E00C8D600E72284 /* MasterViewController.h */,
+				71A723DE1E00C8D600E72284 /* MasterViewController.m */,
+				71A723E01E00C8D600E72284 /* DetailViewController.h */,
+				71A723E11E00C8D600E72284 /* DetailViewController.m */,
+				714AAFDA1E06D3E1008112CA /* NewGroupViewController.h */,
+				714AAFDB1E06D3E1008112CA /* NewGroupViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		71F967F21E1086770021362B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		71F967F31E10885E0021362B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				712341671E0F1265001540C2 /* UIColor+GroupMe.h */,
+				712341681E0F1265001540C2 /* UIColor+GroupMe.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CD9A8769C2129BCD7C7AD5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F967ED1E105C850021362B /* MapKit.framework */,
+				711A5F5D1E01F3030085F525 /* Security.framework */,
+				94BFF21DC3B9192995730F13 /* libPods-GroupMe.a */,
+				FA90B459BED6EF4AB73C45CA /* libPods-GroupMeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A723D31E00C8D600E72284 /* GroupMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A723F91E00C8D600E72284 /* Build configuration list for PBXNativeTarget "GroupMe" */;
+			buildPhases = (
+				6D13253F3AA432E30D6F5DEC /* [CP] Check Pods Manifest.lock */,
+				71A723D01E00C8D600E72284 /* Sources */,
+				71A723D11E00C8D600E72284 /* Frameworks */,
+				71A723D21E00C8D600E72284 /* Resources */,
+				354FCFF42759D3BE99EB1A89 /* [CP] Embed Pods Frameworks */,
+				F9A75C6E2D429E7DBBE8A33C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupMe;
+			productName = GroupMe;
+			productReference = 71A723D41E00C8D600E72284 /* GroupMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A723CC1E00C8D600E72284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrew Fischer";
+				TargetAttributes = {
+					71A723D31E00C8D600E72284 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VJ2YH44BQ3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 71A723CF1E00C8D600E72284 /* Build configuration list for PBXProject "GroupMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A723CB1E00C8D600E72284;
+			productRefGroup = 71A723D51E00C8D600E72284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A723D31E00C8D600E72284 /* GroupMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A723D21E00C8D600E72284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A723EA1E00C8D600E72284 /* LaunchScreen.storyboard in Resources */,
+				71A723E71E00C8D600E72284 /* Assets.xcassets in Resources */,
+				71A723E51E00C8D600E72284 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		354FCFF42759D3BE99EB1A89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupMe/Pods-GroupMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D13253F3AA432E30D6F5DEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A75C6E2D429E7DBBE8A33C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupMe/Pods-GroupMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A723D01E00C8D600E72284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A723DC1E00C8D600E72284 /* AppDelegate.m in Sources */,
+				714AAFDC1E06D3E1008112CA /* NewGroupViewController.m in Sources */,
+				71A723DF1E00C8D600E72284 /* MasterViewController.m in Sources */,
+				712341691E0F1265001540C2 /* UIColor+GroupMe.m in Sources */,
+				71D56B131E01012300F0ED50 /* Group.m in Sources */,
+				716B7F381E0199F4002A26F2 /* GroupTableViewCell.m in Sources */,
+				71A723D91E00C8D600E72284 /* main.m in Sources */,
+				71A723E21E00C8D600E72284 /* DetailViewController.m in Sources */,
+				71AB3F161E15783200B6D0EC /* AccountManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71A723E31E00C8D600E72284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A723E41E00C8D600E72284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71A723E81E00C8D600E72284 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A723E91E00C8D600E72284 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71A723F71E00C8D600E72284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71A723F81E00C8D600E72284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A723FA1E00C8D600E72284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A67ED49126315C77E30C4C /* Pods-GroupMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GroupMe/GroupMe.entitlements;
+				DEVELOPMENT_TEAM = VJ2YH44BQ3;
+				INFOPLIST_FILE = GroupMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewfischer.GroupMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A723FB1E00C8D600E72284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF3E07D71A758436A890DEC /* Pods-GroupMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GroupMe/GroupMe.entitlements;
+				DEVELOPMENT_TEAM = VJ2YH44BQ3;
+				INFOPLIST_FILE = GroupMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewfischer.GroupMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A723CF1E00C8D600E72284 /* Build configuration list for PBXProject "GroupMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A723F71E00C8D600E72284 /* Debug */,
+				71A723F81E00C8D600E72284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A723F91E00C8D600E72284 /* Build configuration list for PBXNativeTarget "GroupMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A723FA1E00C8D600E72284 /* Debug */,
+				71A723FB1E00C8D600E72284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A723CC1E00C8D600E72284 /* Project object */;
+}
